@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+ENV/
+test_scannerV3/   # tu venv con el nombre del repo
+
+# --- SO / basura de sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- VS Code (ajusta según prefieras) ---
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+
+# --- Builds / distribuciones ---
+build/
+dist/
+*.egg-info/
